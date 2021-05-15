@@ -18,6 +18,10 @@
                  border-color: green;
                  border-width: 10px;
                  border-style: solid;
+                 border-radius: 10px;
+            }
+            #cat-photo-form {
+                background-color: green;
             }
         </style>  
     </head>
@@ -41,7 +45,7 @@
     <li>thunder</li>
     <li>other cats</li>
   </ol>
-  <form action="https://www.freecatphotoapp.com/submit-cat-photo">
+  <form id="cat-photo-form" action="https://www.freecatphotoapp.com/submit-cat-photo">
     <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor"> Indoor</label>
     <label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor"> Outdoor</label><br>
     <input type="text" placeholder="cat photo URL" required>
