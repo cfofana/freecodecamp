@@ -1,3 +1,12 @@
-body{
-    background-color: red;
+body {
+    background-color: #4c0b0b;
+}
+#container {
+    background-color:#f7ecec;
+}
+#header {
+    background-color:#13138e;
+}
+#footer {
+    background-color: #f3d3d3;
 }
